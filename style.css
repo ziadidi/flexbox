@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+.box{
+    border: 4px solid lightblue;
+    width: 100px;
+    height: 100px;
+}
+.box-small{
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+}
+.box-wrapper{
+    display: flex;
+    align-items: center;
+}
+.container{
+    border: 4px solid lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+*{
+    box-sizing: border-box;
+}
+.container-2{
+    margin-top: 15px;
+    border: 4px solid lightgreen;
+    padding: 24px 24px 0 24px;
+    /* same as margin=display: flex;
+    justify-content:center;*/
+}
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.title{
+    border: 2px solid lightgreen;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+.box-wrapper-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-2{
+    border: 4px solid lightgreen;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+
+.container-3{
+    margin-top: 15px;
+    border: 4px solid lightpink;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-3{
+    border: 1px solid lightpink;
+    margin-bottom: 24px;
+}
+.box-small-3{
+    height: 50px;
+    width: 295px;
+}
+.box-wrapper-3{
+    width: 45%;
+    /*display: block;
+    flex-direction: column;*/
+}
+.box-large-3{
+   width: 45%;
+}
+
+
+.container-4{
+    margin-top: 15px;
+    border: 4px solid lightgoldenrodyellow;
+    padding: 80px 24px 80px 24px;
+}
+.row-4{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto -24px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box-4{
+    border: 4px solid lightgoldenrodyellow;
+    margin-bottom: 24px;
+}
+.box-small-4{
+    height: 50px;
+}
+.box-tiny-4{
+    width: 30%;
+    height: 50px;
+}
+.tiny-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.box-wrapper-4{
+    width: 45%;
+    /*display: block;
+    flex-direction: column;*/
+}
+.box-large-4{
+   width: 45%;
+}
